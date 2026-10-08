@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Qwen3-0.6B performance comparison</title>
+  <desc id="desc">Grouped bar chart comparing overall accuracy, positive-class F1 and valid-output coverage for zero-shot, few-shot and LoRA fine-tuned Qwen3-0.6B.</desc>
+  <rect width="1200" height="680" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">Qwen3-0.6B: Full-Test Performance</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#5d6678">25,000 reviews; invalid generations count as errors in overall accuracy</text>
+  <g stroke="#d8dee9" stroke-width="1">
+    <line x1="105" y1="540" x2="1130" y2="540"/>
+    <line x1="105" y1="460" x2="1130" y2="460"/>
+    <line x1="105" y1="380" x2="1130" y2="380"/>
+    <line x1="105" y1="300" x2="1130" y2="300"/>
+    <line x1="105" y1="220" x2="1130" y2="220"/>
+    <line x1="105" y1="140" x2="1130" y2="140"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#5d6678" text-anchor="end">
+    <text x="92" y="545">0</text><text x="92" y="465">20</text><text x="92" y="385">40</text>
+    <text x="92" y="305">60</text><text x="92" y="225">80</text><text x="92" y="145">100</text>
+  </g>
+  <text x="31" y="340" transform="rotate(-90 31 340)" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#364056">Percent (%)</text>
+  <g>
+    <rect x="155" y="204.90" width="68" height="335.10" rx="6" fill="#3568d4"/>
+    <rect x="231" y="195.54" width="68" height="344.46" rx="6" fill="#f2a93b"/>
+    <rect x="307" y="142.72" width="68" height="397.28" rx="6" fill="#2f9d74"/>
+    <text x="189" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#244c9d">83.78</text>
+    <text x="265" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#a66508">86.12</text>
+    <text x="341" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f7555">99.32</text>
+  </g>
+  <g>
+    <rect x="491" y="182.08" width="68" height="357.92" rx="6" fill="#3568d4"/>
+    <rect x="567" y="179.74" width="68" height="360.26" rx="6" fill="#f2a93b"/>
+    <rect x="643" y="140.05" width="68" height="399.95" rx="6" fill="#2f9d74"/>
+    <text x="525" y="171" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#244c9d">89.48</text>
+    <text x="601" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#a66508">90.07</text>
+    <text x="677" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f7555">99.99</text>
+  </g>
+  <g>
+    <rect x="827" y="159.42" width="68" height="380.58" rx="6" fill="#3568d4"/>
+    <rect x="903" y="159.55" width="68" height="380.45" rx="6" fill="#f2a93b"/>
+    <rect x="979" y="140" width="68" height="400" rx="6" fill="#2f9d74"/>
+    <text x="861" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#244c9d">95.14</text>
+    <text x="937" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#a66508">95.11</text>
+    <text x="1013" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1f7555">100.00</text>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#172033">
+    <text x="265" y="572" font-size="18" font-weight="700">Zero-shot</text>
+    <text x="601" y="572" font-size="18" font-weight="700">Few-shot</text>
+    <text x="937" y="572" font-size="18" font-weight="700">LoRA fine-tuned</text>
+  </g>
+  <g transform="translate(316 612)" font-family="Arial, sans-serif" font-size="15" fill="#364056">
+    <rect x="0" y="0" width="20" height="20" rx="3" fill="#3568d4"/><text x="30" y="15">Overall accuracy</text>
+    <rect x="210" y="0" width="20" height="20" rx="3" fill="#f2a93b"/><text x="240" y="15">Positive-class F1</text>
+    <rect x="425" y="0" width="20" height="20" rx="3" fill="#2f9d74"/><text x="455" y="15">Valid-output coverage</text>
+  </g>
+</svg>

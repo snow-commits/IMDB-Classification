@@ -1,0 +1,37 @@
+seed: 42
+
+model:
+  embedding_dim: 256
+  hidden_dim: 256
+  num_layers: 1
+  bidirectional: true
+  classifier_hidden_dim: 30
+  embedding_dropout: 0.3
+  classifier_dropout: 0.3
+
+data:
+  text_column: text
+  label_column: label
+  val_split_ratio: 0.2
+  train_processed_path: data/processed/train_processed.json
+  test_processed_path: data/processed/test_processed.json
+  unsupervised_processed_path: data/processed/unsupervised_processed.json
+
+vocab:
+  lowercase: true
+  min_freq: 1
+  max_size: 20000
+  output_path: data/vocab.json
+
+training:
+  batch_size: 32
+  grad_accum_steps: 1
+  effective_batch_size: 32
+  lr: 0.0003
+  optimizer: adamw
+  weight_decay: 0.0001
+  num_epochs: 20
+  early_stopping_patience: 2
+  grad_clip_norm: 1.0
+  amp: true
+  scheduler: none

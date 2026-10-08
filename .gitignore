@@ -1,0 +1,8 @@
+﻿.DS_Store
+__MACOSX/
+**/__pycache__/
+.ipynb_checkpoints/
+BiLSTM/data/raw/
+BiLSTM/outputs/results/*misclassified_examples.json
+*.pdf
+*.pptx

@@ -1,0 +1,4 @@
+setting,true_negative,false_positive,false_negative,true_positive,invalid_outputs
+zero-shot,8893,3512,374,12051,170
+few-shot,10462,2036,591,11908,3
+LoRA fine-tuned,11976,524,690,11810,0

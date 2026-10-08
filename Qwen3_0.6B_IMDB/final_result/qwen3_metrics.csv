@@ -1,0 +1,4 @@
+setting,n_samples,valid_outputs,invalid_outputs,coverage,overall_accuracy,valid_only_accuracy,precision_negative,recall_negative,f1_negative,precision_positive,recall_positive,f1_positive,macro_f1,mean_prompt_tokens,mean_seconds_per_review
+zero-shot,25000,24830,170,0.99320,0.83776,0.843496,0.9596,0.7169,0.8207,0.774337,0.969899,0.861155,0.8409,316.39428,0.069365
+few-shot,25000,24997,3,0.99988,0.89480,0.894907,0.9465,0.8371,0.8885,0.853987,0.952716,0.900654,0.8946,839.39428,0.137414
+LoRA fine-tuned,25000,25000,0,1.00000,0.95144,0.951440,0.9455,0.9581,0.9518,0.957516,0.944800,0.951115,0.9514,282.72528,0.050903

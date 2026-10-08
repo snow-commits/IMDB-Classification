@@ -1,0 +1,11 @@
+{
+  "n_samples": 25000,
+  "coverage": 1.0,
+  "overall_accuracy": 0.95144,
+  "mean_seconds_per_review": 0.05090273911998607,
+  "mean_prompt_tokens": 282.72528,
+  "valid_only_accuracy": 0.95144,
+  "precision_positive": 0.9575158099562185,
+  "recall_positive": 0.9448,
+  "f1_positive": 0.9511154062978175
+}
